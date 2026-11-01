@@ -2,7 +2,7 @@
 
 ## Implementation
 
-Port the existing EMS experience to the managed React/Express/tRPC/MySQL runtime while preserving the dashboard visual system, administrator access, live employee statistics, employee CRUD, search, department/status filters, validation, confirmations, and responsive behavior. Use Manus OAuth for managed application authentication and the managed MySQL database for employees. Document how the managed routes map to the original AIP MVC concepts.
+Port the existing EMS experience to the managed React/Express/tRPC/MySQL runtime while preserving the dashboard visual system, administrator access, live employee statistics, employee CRUD, search, department/status filters, validation, confirmations, and responsive behavior. Use the custom EMS administrator login and the managed MySQL database for employees. Document how the managed routes map to the original AIP MVC concepts.
 
 ## Design
 
