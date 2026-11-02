@@ -4,14 +4,16 @@ PeopleHub is an employee administration system built for an MCA Advanced Interne
 
 ## Features
 
-- Administrator login with Admin Name, Username, and Password.
+- First-visit account registration with Admin Name, Username, Password, and confirmation.
+- Returning-user sign in with a secure password hash and session cookie.
+- Private per-account employee workspaces: each account can view and modify only its own records.
 - Dashboard statistics for total employees, active employees, departments, and recently added records.
 - Employee directory with search by name, email, or employee ID.
 - Department and employment-status filters.
 - Add, edit, and delete employee records.
 - Duplicate-email protection and server-side validation.
 - Responsive layout for desktop, tablet, and mobile screens.
-- Persistent MySQL-compatible database storage.
+- Persistent MySQL-compatible database storage with account ownership on employee records.
 
 ## Technology
 
@@ -43,7 +45,7 @@ pnpm build
 pnpm start
 ```
 
-The administrator credentials are configured through deployment environment variables. The default development values are `admin` and `Admin@123`; change them before any real deployment.
+On first visit, choose **Create account** and register a workspace. On later visits, choose **Sign in**. Passwords are stored as salted scrypt hashes; plaintext passwords are never saved. The application uses one managed database with owner-scoped records rather than creating a physical database for every account, which provides the same private-workspace behavior while remaining easier to maintain and back up.
 
 ## AIP submission notes
 

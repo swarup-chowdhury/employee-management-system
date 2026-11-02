@@ -15,6 +15,13 @@
       "when": 1793205887252,
       "tag": "0001_round_talos",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1793601333830,
+      "tag": "0002_wealthy_beast",
+      "breakpoints": true
     }
   ]
 }
