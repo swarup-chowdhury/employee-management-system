@@ -1,0 +1,1 @@
+function validateEmployeeForm(){const salary=document.querySelector('[name="salary"]');if(salary&&Number(salary.value)<0){alert('Salary cannot be negative.');return false;}return true;}document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.alert').forEach(a=>{setTimeout(()=>{a.style.opacity='0';a.style.transition='opacity .4s';},5000);});});

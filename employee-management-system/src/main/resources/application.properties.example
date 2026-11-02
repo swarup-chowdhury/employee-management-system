@@ -1,0 +1,6 @@
+# Copy to application.properties or set equivalent environment variables.
+# Environment variables take precedence.
+db.url=jdbc:mysql://localhost:3306/employee_management?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+db.username=ems_user
+db.password=change_me
+session.timeout.minutes=30

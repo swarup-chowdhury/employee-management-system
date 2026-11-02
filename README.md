@@ -25,7 +25,7 @@ The original submission version uses JSP, Jakarta Servlets, JDBC, MySQL, Maven, 
 - `server/` contains authentication, database access, and employee procedures.
 - `drizzle/` contains the database schema and migrations.
 - `docs/aip-mapping.md` explains how the hosted implementation maps to JSP, Servlets, JDBC, MVC, sessions, and Tomcat concepts.
-- `employee-management-system/` is the original AIP WAR project when included in the submission package.
+- `employee-management-system/` contains the original AIP JSP/Servlet/JDBC/Maven source project, database schema, documentation, and Windows hosting scripts.
 
 ## Local development
 
